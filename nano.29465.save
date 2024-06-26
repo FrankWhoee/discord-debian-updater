@@ -1,0 +1,4 @@
+mkdir ~/bin
+sudo sh -c 'wget -cO - https://raw.githubusercontent.com/FrankWhoee/discord-ubuntu-updater/main/updatediscord.sh >> ~/bin/update-discord'
+
+
