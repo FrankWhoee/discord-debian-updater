@@ -13,4 +13,4 @@ Also, you can run this command as much as you want! If the next version doesn't 
 `sudo update-discord`
 
 # How it works
-Like the original discordupater, this is a very simple script. This script finds the current version number by checking the `~/.config/discord` folder and then finds a folder name matching the regex of `[0-9]\+.[0-9]\+.[0-9]\+` (i.e. number.number.number) and increments it, then downloads the proper deb file and then unpacks and installs it using apt. Finally it removes the file downloaded so your file system doesn't get cluttered up.
+Like the original discordupdater, this is a very simple script. This script finds the current version number by checking the `~/.config/discord` folder and then finds a folder name matching the regex of `[0-9]\+.[0-9]\+.[0-9]\+` (i.e. number.number.number) and increments it, then downloads the proper deb file and then unpacks and installs it using apt. Finally it removes the file downloaded so your file system doesn't get cluttered up.
